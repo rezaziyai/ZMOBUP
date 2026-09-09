@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "xray_path": "xray\\xray.exe",
   "test": {
     "latency_timeout_seconds": 8,
@@ -10,6 +10,7 @@
     "top_n": 20
   },
   "endpoints": {
+    "latency": "https://speed.cloudflare.com/__down?bytes=1",
     "download": "https://speed.cloudflare.com/__down?bytes=5242880",
     "upload": "https://speed.cloudflare.com/__up"
   }
